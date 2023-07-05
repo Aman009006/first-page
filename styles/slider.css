@@ -1,0 +1,27 @@
+.card__slider {
+    position: relative;
+    max-width: 686px;
+    max-height: 878px;
+    margin: 0 auto;
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+.slider img {
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.main__img {
+    width: 686px;
+    height: 878px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1200px){
+
+}
